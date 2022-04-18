@@ -1,12 +1,12 @@
 .logo {
-    border-radius: 50px;
-    width: 200px;
+    border-radius: 60px;
+    max-width: 200px;
     max-height: 250px;
 }
 
 @media (max-width: 548px) {
     .logo {
-        max-height: 50px;
+        max-height: 5px;
     }
 }
 
@@ -27,6 +27,7 @@ header {
 }
 
 section {
+    z-index: 10;
     border-bottom: 8px solid #222;
 }
 
@@ -48,12 +49,12 @@ section {
     text-align: center;
     font-weight: bold;
     margin: 0%;
-    padding-top: 23%;
+    padding-top: 15%;
 }
 
 .box-background,
 .box .content {
-    height: 83.50%;
+    height: 74.5%;
     width: 100%;
 }
 
@@ -104,7 +105,7 @@ section .subtitle {
 .our-story-card-video {
     position: absolute;
     left: 13.5%;
-    top: 22%;
+    top: 32%;
     max-width: 72.5%;
 }
 
@@ -143,4 +144,12 @@ section .subtitle {
 
 .mobile-card .gif img {
     width: 3em;
+}
+
+.img-fluid {
+    margin-top: 50px;
+}
+
+.fundo {
+    border-bottom: 8px solid #222;
 }
