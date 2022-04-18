@@ -11,7 +11,7 @@
 
 <body>
     <header class="position-absolute w-100 pt-1">
-        <div class="ml-3 mr-3 ml-md-5 mr-md-5 p-2 pt-4">
+        <div class="ml-3 mr-5 ml-md-5 mr-md-5 p-1 pt-4">
             <div class="d-flex align-items-center">
                 <img class="logo" src="/img/netflix.jpg">
                 <div class="ml-auto">
@@ -20,13 +20,13 @@
             </div>
         </div>
     </header>
-
+    <!-- Primeira coluna -->
     <section class="box">
         <div class="box-background position-absolute">
             <img class="fundo " src="img/banner.jpg">
         </div>
 
-        <div class="justify-content-center position-relative d-flex align-items-center ">
+        <div class="justify-content-center position-relative d-flex align-items-center">
             <div class="d-flex flex-column">
                 <div class="d-flex justify-content-center">
                     <h1 class="textoprinc col-md-7">Filmes, séries e muito mais. Sem limites.</h1>
@@ -34,10 +34,10 @@
                 <h2 class="text-white text-center m-4">Assista onde quiser. Cancele quando quiser.</h2>
                 <h3 class="text-white text-center m-4">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
 
-                <div class="d-flex justify-content-center pt-3 pb-3">
+                <div class="d-flex justify-content-center pt-3 pb-6">
                     <div class="input-group col-md-8 flex-column flex-md-row pt-1 assine">
                         <input type="text" class="form-control" placeholder="Email">
-                        <span class="input-group-text pl-3 pl-md-4">Vamos lá!<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                        <span class="input-group-text pl-3 pl-md-3">Vamos lá!<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
                             <path  d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
                           </svg></span>
                     </div>
@@ -45,15 +45,15 @@
             </div>
         </div>
     </section>
-
-    <section class="segu-camada">
-        <div class="container pt-5 pb-5">
+    <!-- Segunda coluna -->
+    <section class="segun-linha pt-1 pb-4">
+        <div class="container pt-5 pb-5 order-1 order-md-0">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center">
-                    <h1 class="title text-white font-weight-bold mb-4 text-center">Aproveite na TV.</h1>
-                    <h2 class="subtitle text-white text-center">Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
+                    <h1 class="title text-white font-weight-bold mb-4 text-center "> Aproveite na TV.</h1>
+                    <h2 class="text-white m-3">Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="position-relative video-tv">
                         <img class="img-fluid" src="img/tv.png" />
                         <video class="our-story-card-video" autoplay playsinline muted loop>
@@ -63,10 +63,11 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container pt-5 pb-5">
+    <!-- Terceira coluna -->
+    <section class="terceira-linha">
+        <div class="container pt-1 pb-5">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 order-1 order-md-0">
                     <div class="position-relative mobile">
                         <img class="img-fluid" src="/img/strang.jpg" />
                         <div class="mobile-card d-flex justify-content-between align-items-center p-2">
@@ -78,14 +79,14 @@
                                 <label>Download em andamento...</label>
                             </div>
                             <div class="gif">
-                                <img src="/img/download-icon.gif" />
+                                <img src="img/download-icon.gif" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex align-items-center">
+                <div class="col-md-6 pt-5 d-flex align-items-center">
                     <div>
-                        <h1 class="title text-white font-weight-bold mb-4 text-center">Baixe séries para assistir offline.</h1>
+                        <h1 class="title text-white font-weight-bold mb-3 text-center">Baixe séries para assistir offline.</h1>
                         <h2 class="text-white text-center m-3">Salve seus títulos favoritos e sempre tenha algo para assistir.</h2>
                     </div>
                 </div>
@@ -94,6 +95,48 @@
         </div>
 
     </section>
+    <!-- Quarta coluna -->
+    <section>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <h1 class="title text-white font-weight-bold mb-4 text-center">Assista quando quiser.</h1>
+                        <h2 class="text-white text-center m-3">Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="position-relative video-desktop">
+                        <img class="img-fluid" src="img/tv2.png">
+                        <video autoplay playsinline muted loop>
+                            <source src="/video/videostrang.m4v" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quinta coluna -->
+    <section>
+        <div class="container pt-1 pb-5">
+            <div class="row">
+                <div class="col-md-6 order-1 order-md-0">
+                    <div class="position-relative mobile">
+                        <img src="/img/kids.png">
+                    </div>
+                    <div class="col-md-6 pt-5 d-flex align-items-center">
+                        <div>
+                            <h1 class="title text-white font-weight-bold mb-4 text-center">Crie perfis para crianças.</h1>
+                            <h2 class="text-white text-center m-3">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
