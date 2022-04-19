@@ -173,3 +173,35 @@ section .subtitle {
     width: 100%;
     padding: 1px;
 }
+
+.perguntas .accordion button {
+    background: #303030;
+    color: white;
+    padding: 1.1rem 2.2rem 1.1rem 1.2rem;
+    text-align: left;
+    position: relative;
+    outline: none;
+    font-size: 1.625rem;
+    width: 100%;
+    border: 0;
+}
+
+.perguntas .accordion button span {
+    position: absolute;
+    right: 20px;
+    font-size: 4rem;
+    line-height: 1.1;
+    top: 0;
+}
+
+.perguntas .accordion button[aria-expanded="true"] span {
+    transform: rotate(135deg);
+}
+
+.perguntas .accordion .card-body {
+    background: #303030;
+    font-size: 1.625rem;
+    color: #fff;
+    white-space: pre-line;
+    margin-top: 2px;
+}

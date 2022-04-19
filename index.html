@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- login e botão -->
     <header class="position-absolute w-100 pt-1">
         <div class="ml-3 mr-5 ml-md-5 mr-md-5 p-1 pt-4">
             <div class="d-flex align-items-center">
@@ -46,12 +47,16 @@
         </div>
     </section>
     <!-- Segunda coluna -->
-    <section class="segun-linha pt-1 pb-4">
-        <div class="container pt-5 pb-5 order-1 order-md-0">
+    <section>
+        <div class="container pt-5 pb-6">
             <div class="row">
-                <div class="col-md-6 d-flex align-items-center">
-                    <h1 class="title text-white font-weight-bold mb-4 text-center "> Aproveite na TV.</h1>
-                    <h2 class="text-white m-3">Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
+                <div class="col-md-6 text-center txt1">
+                    <div class="col-md-6 d-flex ">
+                        <div>
+                            <h1 class="title text-white font-weight-bold mb-4 text-center pt-5">Aproveite na TV.</h1>
+                            <h2 class="subtitle text-white text-center">Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="position-relative video-tv">
@@ -116,27 +121,135 @@
             </div>
         </div>
     </section>
-    <!-- Quinta coluna -->
+    <!-- Quinta coluna // Os Irmãoes -->
     <section>
-        <div class="container pt-1 pb-5">
+        <div class="container pt-5 pb-5">
             <div class="row">
-                <div class="col-md-6 order-1 order-md-0">
+                <div class="col-md-6">
                     <div class="position-relative mobile">
-                        <img src="/img/kids.png">
+                        <img class="img-fluid" src="/img/kids.png" />
                     </div>
-                    <div class="col-md-6 pt-5 d-flex align-items-center">
-                        <div>
-                            <h1 class="title text-white font-weight-bold mb-4 text-center">Crie perfis para crianças.</h1>
-                            <h2 class="text-white text-center m-3">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h2>
-                        </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <h1 class="title text-white font-weight-bold mb-4 text-center">Crie perfis para crianças.</h1>
+                        <h2 class="subtitle text-white">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h2>
                     </div>
-
                 </div>
             </div>
         </div>
+    </section>
+    <!-- Sexta coluna // sanfonado.-->
+    <section>
+        <div class="container pt-5 pb-5 perguntas">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h1 class="text-white text-center font-weight-bold title">Perguntas frequentes</h1>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="accordion mt-5 " id="accordion">
+                        <!-- primeira pergunta -->
+                        <div class="form-group">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                O que é a Netflix?
+                                <span>+</span>
+                           </button>
+
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="card-body pl-4 pr-4">
+                                    <p> A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet. </p>
+                                    <p>Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais -tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- segunda pergunta -->
+                        <div class="form-group">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                Quanto custa a Netflix?
+                                <span>+</span>
+                           </button>
+
+                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="card-body pl-4 pr-4">
+                                    <p>Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- terceira pergunta -->
+                        <div class="form-group">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                Onde posso assistir?
+                                <span>+</span>
+                           </button>
+
+                            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="card-body pl-4 pr-4">
+                                    <p>Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart
+                                        TVs, smartphones, tablets, aparelhos de streaming e videogames.</p>
+                                    <p>Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você
+                                        para qualquer lugar.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- quarta pergunta -->
+                        <div class="form-group">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapseOne">
+                                Como faço para cancelar?
+                                <span>+</span>
+                           </button>
+
+                            <div id="collapsefour" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="card-body pl-4 pr-4">
+                                    <p>A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- quinta pergunta -->
+                        <div class="form-group">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapseOne">
+                                O que eu posso assistir na Netflix?
+                                <span>+</span>
+                           </button>
+
+                            <div id="collapsefive" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="card-body pl-4 pr-4">
+                                    <p>A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- sexta pergunta -->
+                        <div class="form-group">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="true" aria-controls="collapseOne">
+                                    A Netflix é adequada para crianças?
+                                    <span>+</span>
+                               </button>
+
+                            <div id="collapsesix" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="card-body pl-4 pr-4">
+                                    <p>A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos pais.</p>
+                                    <p>O recurso de controle dos pais, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer
+                                        que elas assistam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Outro Input -->
+                    <div class="d-flex flex-column">
+                        <h3 class="text-white text-center m-4">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+                        <div class="d-flex justify-content-center pt-3 pb-6">
+                            <div class="input-group col-md-8 flex-column flex-md-row pt-1 assine">
+                                <input type="text" class="form-control" placeholder="Email">
+                                <span class="input-group-text pl-3 pl-md-3">Vamos lá!<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                                    <path  d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                                  </svg></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
